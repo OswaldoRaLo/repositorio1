@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python_app:
+    image: python:3
+    volumes:
+      - ./codigo:/app
+    working_dir: /app
+    command: python3 suma.py 5 6
