@@ -30,6 +30,8 @@ services:
     working_dir: /app
     command: python3 suma.py 5 6
 ```
+Las variables 5 y 6 son las que se suman, pueden ser cambiados
+
 ###3. Ejecutar la Aplicación:
 Ejecutar el comando en la terminal para iniciar la aplicación:
 
